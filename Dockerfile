@@ -18,7 +18,7 @@ COPY . /app
 WORKDIR /app
 
 # 환경변수 적용 
-ENV SECRET_KEY 'django-insecure-=2$1q+#bwamb&1gi8=)#tj&6%xz=aww%r9t94xnn#&-aqu=e(w'
+ENV SECRET_KEY 'django-insecure-&3p2lkex*@ez1xr)^4xuwt%9$fgio_7w)vq+9#u@ql249uk1je'
 
 COPY run.sh .
 RUN chmod +x run.sh

@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-import pymysql 
+import pymysql
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -82,10 +82,10 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "mydatabase", 
+        "NAME": "mydbcon", 
         "USER": "admin", 
-        "PASSWORD": "qlalf2wlfhd~", 
-        "HOST": "my-database.cfmmqq4kiuqh.ap-southeast-2.rds.amazonaws.com", # host 주소
+        "PASSWORD": "Agabido65", 
+        "HOST": "mydbcon.ctg8622ys9u9.ap-southeast-2.rds.amazonaws.com", # host 주소
         "PORT": "3306" 
     }
 }
